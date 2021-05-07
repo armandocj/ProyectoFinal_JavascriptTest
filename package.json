@@ -1,0 +1,28 @@
+{
+  "name": "proyectofinal_javascripttest",
+  "version": "1.0.0",
+  "description": "Proyecto final de JavaScript testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/armandocj/ProyectoFinal_JavascriptTest.git"
+  },
+  "keywords": [
+    "jest",
+    "automation",
+    "proyecto",
+    "final"
+  ],
+  "author": "Armando Celada Jimenez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/armandocj/ProyectoFinal_JavascriptTest/issues"
+  },
+  "homepage": "https://github.com/armandocj/ProyectoFinal_JavascriptTest#readme",
+  "dependencies": {
+    "jest": "^26.6.3"
+  }
+}
