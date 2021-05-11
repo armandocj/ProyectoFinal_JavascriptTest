@@ -13,3 +13,9 @@ test('Probar regresa orden correcto de array de numeros', () => {
 test('Probar regresa orden correcto de array de palabras', () => {
     expect(burbuja(arrayPalabras)).toEqual(expectedArrayPalabras);
 });
+
+test('Probar que tira una excepcion cuando recibe Null', () => {
+    expect( () => {
+        burbuja(null)
+    } ).toThrow();
+});

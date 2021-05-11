@@ -12,16 +12,4 @@ function bubbleSort(items) {
 
 //var array = [8,9,3,5,1];
 //console.log(bubbleSort(array));
-
-var fecha = new Date();
-var objeto = {
-    pais: 'Mexico',
-    poblacion: 123
-};
-var fecha2 = new Date();
-var arreglo = [
-    fecha, objeto, fecha2
-];
-
-console.log(bubbleSort(arreglo));
 module.exports = bubbleSort;
