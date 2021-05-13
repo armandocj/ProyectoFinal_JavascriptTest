@@ -12,7 +12,4 @@ let contarVocales = cadena => {
     return [countVocal,countConst];
 }
 
-
-//console.log('Vocales y Consonantes ' + contarVocales(1325))
-
 module.exports = contarVocales;

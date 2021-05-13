@@ -1,6 +1,5 @@
 
 function threeCompany (cadena) {
-    var n = cadena.length;
     var output = ''
 
    Array.from(cadena).forEach(element => {

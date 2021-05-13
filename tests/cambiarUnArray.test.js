@@ -7,7 +7,7 @@ test('Probar que la funcion "cambiarArreglo" invierte el orden de un arreglo ya 
     expect(cambiarArreglo(['hola', 345, 'dias'])).toEqual(['dias', 345, 'hola']);
 });
 
-test('Probar que la funcion "cambiarArreglo" no soporta caracteres ni numeros en lugar de arreglos', () => {
+test('Probar que la funcion "cambiarArreglo" No soporta caracteres ni numeros en lugar de arreglos, tira una excepcion', () => {
     expect(
         () => {
             cambiarArreglo('patito');

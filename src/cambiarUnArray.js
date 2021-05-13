@@ -7,5 +7,4 @@ function cambiarArreglo(arreglo) {
     return salida;
 }
 
-
 module.exports = cambiarArreglo;

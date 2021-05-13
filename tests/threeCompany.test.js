@@ -11,11 +11,11 @@ test('Probar que la funcion "threeCompany" acepta arrays de caracteres', () => {
 });
 
 
-test('Probar que la funcion "threeCompany" no soporta numero en lugar de strings', () => {
+test('Probar que la funcion "threeCompany" No soporta numero en lugar de strings', () => {
     expect(threeCompany(159)).toBe('');
 });
 
-test('Probar que la funcion "threeCompany" no soporta numeros y caracteres mezclados en un arreglo', () => {
+test('Probar que la funcion "threeCompany" tira excepcion cuando recibe numeros y caracteres mezclados en un arreglo', () => {
     expect( 
         () => {
             threeCompany(['hola',3])
